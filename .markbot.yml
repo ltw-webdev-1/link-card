@@ -1,0 +1,49 @@
+repo: "link-card"
+canvasCourse: "467502"
+canvasAssignment: "4178300"
+
+naming: true
+commits: 2
+
+html:
+  - path: "index.html"
+    valid: true
+    bestPractices: true
+    has:
+      - "a.link-card"
+      - "a h2"
+      - "a dl"
+      - "a .btn"
+    search:
+      - "Dosis"
+      - "Dung Beetle"
+      - "exclusively on dung"
+      - "Learn more"
+      - "Arthropoda"
+      - "Superfamily"
+      - "Scarabaeoidea"
+      - "Scarabidae"
+
+css:
+  - path: "css/main.css"
+    valid: true
+    bestPractices: true
+    has:
+      - ['html', 'box-sizing', 'border-box']
+      - ['.link-card']
+      - ['.link-card:hover']
+    search:
+      - "Georgia"
+      - "Dosis"
+      - "block"
+      - "inline-block"
+      - "#785439"
+      - "#cabdb2"
+      - "#512200"
+      - "#9a816d"
+      - "#dcd4cd"
+      - "#f0eee8"
+
+screenshots:
+  - path: "index.html"
+    sizes: [320]
