@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #f0eee8;
-  font-family: georgia;
+  font-family: "Georgia";
 }
 
 *, *::before, *::after {
@@ -21,8 +21,8 @@ p {
 }
 
 body {
-  background-color: #cabdb2;
-  border: 3px solid #785439;
+  background-color: #dcd4cd;
+  border: 3px solid #9a816d;
   border-radius: 3px;
 }
 
@@ -44,6 +44,12 @@ dl {
   background-color: #785439;
 }
 
-div {
+div footer {
   text-align: center;
+}
+
+dd,dt {
+	display: inline-block;
+	width: 45%;
+	margin: 0;
 }
