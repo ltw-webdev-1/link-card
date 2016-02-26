@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+  background-color: #f0eee8;
+  font-family: Georgia;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  display: inline-block;
+  color: #512200;
+  font-family: "Dosis", sans-serif;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.link-card {
+  display: inline-block;
+  background-color: #dcd4cd;
+  color: #512200;
+  text-decoration: none;
+  border: 3px solid #9a816d;
+  border-radius: 3px;
+  padding: 15px;
+}
+
+p {
+  display: inline-block;
+  font-size: 1rem;
+}
+
+dd, dt {
+  font-size: 0.875rem;
+  display: inline-block;
+  width: 45%;
+  margin: 0;
+}
+
+main {
+  border-top: 3px solid #9a816d;
+}
+
+div {
+  display: inline-block;
+  color: white;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.125rem;
+  text-decoration: none;
+  background-color: #785439;
+  text-align: center;
+  border-radius: 8px;
+  padding: 7px;
+  margin-top: 15px;
+}
+
+footer {
+  border-top: 3px solid #9a816d;
+  text-align: center;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card:hover div {
+  background-color: #512200;
+}
