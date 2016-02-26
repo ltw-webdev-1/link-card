@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #f0eee8;
-  font-family: "Georgia";
+  font-family: Georgia;
 }
 
 *, *::before, *::after {
@@ -11,45 +11,25 @@ html {
 h1 {
   color: #512200;
   font-family: 'Dosis', sans-serif;
-  font-weight: bold;
-  font-size: 1.5rem
+	text-decoration: none;
 }
 
-p {
-  font-size: 1rem;
-  color: #512200;
-}
-
-body {
-  background-color: #dcd4cd;
-  border: 3px solid #9a816d;
-  border-radius: 3px;
-}
-
-dl {
-  list-style-type: none;
-  font-size: 0.875rem;
-  color: #512200;
-}
-
-.btn {
-  text-decoration: none;
-  font-size: 1.125rem;
-  color: white;
-  text-align: center;
-  font-family: 'Dosis', sans-serif;
-  display: inline-block;
-  padding: 7px;
-  border-radius: 8px;
-  background-color: #785439;
-}
-
-div footer {
-  text-align: center;
+.link-card {
+	background-color: #dcd4cd;
+	color: #512200;
 }
 
 dd,dt {
 	display: inline-block;
 	width: 45%;
 	margin: 0;
+}
+
+main {
+	border-top: 3px solid #9a816d;
+}
+
+div {
+	border-top: 3px solid #9a816d;
+	color: white;
 }
