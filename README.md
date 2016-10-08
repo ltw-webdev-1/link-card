@@ -1,11 +1,12 @@
-# Link card
-
-- Approx. completion time: **1.5 hours**
-- Deliverables: **1 HTML file, 1 CSS file**
-
+---
+summary: "Making a card pattern that is completely clickable."
+time: "1.5 hours"
+deliverables: "1 HTML file, 1 CSS file"
 ---
 
-**Making a card pattern that is completely clickable.**
+# Link card
+
+## Overview
 
 - *Fork this repository.*
 - Write the HTML and CSS necessary to make a link card.
