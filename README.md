@@ -19,9 +19,13 @@
 
 - *Typefaces*: `Georgia`, `Dosis`
 - *Text sizes*: `1.5rem`, `1.125rem`, `1rem`, `0.875rem`
-- *Colours:* `#785439`, `#cabdb2`, `#512200`, `#9a816d`, `#dcd4cd`, `#f0eee8`
-- *Border widths:* `3px`, `2px`
-- *Border radii:* `3px`, `8px`
+- *Line heights*: `1.5`, `1.5rem`
+- *Paddings*: `1rem`, `0.4em 0.75em 0.5em`
+- *Margins*: `0 0 1rem`
+- *Colours*: `#785439`, `#cabdb2`, `#512200`, `#9a816d`, `#dcd4cd`, `#f0eee8`
+- *Border widths*: `3px`, `2px`
+- *Border radii*: `3px`, `8px`
+- *Expected classes*: `.link-card`
 
 ---
 
@@ -29,7 +33,7 @@
 
 Visually match the images in the “screenshots” folder and create the interaction shown in the linked video.
 
-- [Final screenshots in the “screenshots” folder.](screenshots)
+- Final screenshots in the “screenshots” folder.
 - [**Watch this video to see how it interacts.**](https://youtu.be/MG9POj23C8c)
 
 ---
