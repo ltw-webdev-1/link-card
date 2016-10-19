@@ -19,9 +19,9 @@ deliverables: "1 HTML file, 1 CSS file"
 ## Details
 
 - *Typefaces*: `Georgia`, `Dosis`
-- *Text sizes*: `1.5rem`, `1.125rem`, `1rem`, `0.875rem`
+- *Text sizes*: `1.5rem`, `1.125rem`, `1rem`, `.875rem`
 - *Line heights*: `1.5`, `1.5rem`
-- *Paddings*: `1rem`, `0.4em 0.75em 0.5em`
+- *Paddings*: `1rem`, `.4em .75em .5em`
 - *Margins*: `0 0 1rem`
 - *Colours*: `#785439`, `#cabdb2`, `#512200`, `#9a816d`, `#dcd4cd`, `#f0eee8`
 - *Border widths*: `3px`, `2px`
