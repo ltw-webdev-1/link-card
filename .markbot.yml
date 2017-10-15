@@ -1,26 +1,25 @@
 repo: "link-card"
 canvasCourse: "web-dev-1"
 
-naming: true
-restrictFileTypes: true
-liveWebsite: true
-
-git:
-  numCommits: 2
-  allCommitted: true
-  allSynced: true
+inherit:
+  - naming-restrict-live
+  - git-2
+  - html
+  - css
+  - box-sizing
 
 html:
   - path: "index.html"
-    valid: true
-    bestPractices: true
+    outline: false
     has:
       - "a.link-card"
-      - ['a h2', 'Expected to see an `<h2>`. It makes sense to use an `<h2>` in this situation, instead of an `<h1>`, because this card would be part of a larger website.']
+      - check: 'a h2'
+        message: 'Expected to see an `<h2>`—it makes sense to use an `<h2>` in this situation, instead of an `<h1>`, because this card would be part of a larger website'
       - "a dl"
       - "a .btn"
     has_not:
-      - "hr"
+      - check: "hr"
+        message: 'The `<hr>` tag should be used for making lines, it’s intended to create divisions in the content—`border` is intended for making lines'
     search:
       - "Dosis"
       - "Dung Beetle"
@@ -33,11 +32,7 @@ html:
 
 css:
   - path: "css/main.css"
-    valid: true
-    bestPractices: true
     has:
-      - ['html', 'box-sizing', 'border-box']
-      - ['*', 'box-sizing', 'inherit']
       - ['.link-card']
       - ['.link-card:hover']
       - ['.link-card h2']
@@ -64,7 +59,7 @@ functionality:
         let link = $('.link-card');
         let oldBg = css(link).backgroundColor;
 
-        hover('.link-card', function () {
-          if (css(link).backgroundColor == oldBg) fail('The background colour of the card doesn’t change when hovered')
+        hover(link, function () {
+          if (css(link).backgroundColor == oldBg) return fail('The background colour of the card doesn’t change when hovered')
           pass();
         });
