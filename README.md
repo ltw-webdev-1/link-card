@@ -20,7 +20,7 @@ deliverables: "1 HTML file, 1 CSS file"
 
 - *Typefaces*: `Georgia`, `Dosis`
 - *Text sizes*: `1.5rem`, `1.125rem`, `1rem`, `.875rem`
-- *Line heights*: `1.5`, `1.5rem`
+- *Line heights*: `1.5`
 - *Paddings*: `1rem`, `.4em .75em .5em`
 - *Margins*: `0 0 1rem`
 - *Colours*: `#785439`, `#cabdb2`, `#512200`, `#9a816d`, `#dcd4cd`, `#f0eee8`
