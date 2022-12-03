@@ -35,7 +35,7 @@ deliverables: "1 HTML file, 1 CSS file"
 Visually match the images in the “screenshots” folder and create the interaction shown in the linked video.
 
 - Final screenshots in the “screenshots” folder.
-- [**Watch this video to see how it interacts.**](https://youtu.be/MG9POj23C8c)
+- [**Watch this video to see how it interacts.**](https://videos.learntheweb.courses/playlists/web-dev-1/link-card.mp4)
 
 ---
 
